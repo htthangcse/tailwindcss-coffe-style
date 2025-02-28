@@ -1,9 +1,10 @@
-import React from 'react'
+import React from 'react';
+//import slider from '../../public/slider.jpg';
 
 export default function header() {
   return (
     <div id="root">
-      <div className="content-wrapper font-Karla max-w-screen-2xl text-base mx-auto px-8 bg-slate-200">
+      <div className="content-wrapper font-Karla max-w-screen-2xl text-base mx-auto px-8">
         <header className="py-6 mx-10">
           <nav className="flex flex-row justify-between items-center">
             <div className="logo basis-2/6 text-center text-xl font-semibold cursor-pointer">
@@ -51,7 +52,20 @@ export default function header() {
           </nav>
         </header>
         <main>
-          <div className="slider">Slider</div>
+          <div className="slider h-[530px] bg-[url('/img/slider.jpg')] bg-cover bg-no-repeat bg-bottom">
+            <div className="w-full h-full flex justify-center items-center bg-gray-900 bg-opacity-40">
+              <div className="mx-16 text-white text-center">
+                <div className="uppercase mb-6">Best place to buy coffe</div>
+                <div className="font-medium text-5xl mb-6">Coffee Mugs</div>
+                <div className="font-medium text-lg mb-8">The most versatile furniture system ever created. Designed to fit your life, made to move and grow.</div>
+                <div className="flex justify-center">
+                  <div className="uppercase bg-white text-gray-900 w-max tracking-wider py-4 px-8 text-sm font-semibold cursor-pointer hover:bg-opacity-95">
+                    Explore Our Products
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
           <div className="story">Story</div>
           <div className="featured-mugs">featured-mugs</div>
           <div className="more-products">more-products</div>
