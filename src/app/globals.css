@@ -1,24 +1,14 @@
-@import "tailwindcss";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
-@theme {
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+.top-menu-item {
+    @apply cursor-pointer py-1 hover:text-gray-800 relative after:absolute after:bottom-0 after:left-0 after:bg-slate-900
+        after:h-0.5 after:w-0 hover:after:w-full after:transition-all after:ease-in-out after:duration-300;
 }
-
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+.icons {
+    @apply w-5 h-5  inline-block;
 }
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
-
-body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+.badge-circle {
+    @apply text-sm text-center rounded-full px-1.5;
 }
