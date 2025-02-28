@@ -3,13 +3,13 @@ import React from 'react'
 export default function header() {
   return (
     <div id="root">
-      <div className="content-wrapper max-w-screen-2xl text-base mx-auto px-8 bg-slate-200">
+      <div className="content-wrapper font-Karla max-w-screen-2xl text-base mx-auto px-8 bg-slate-200">
         <header className="py-6 mx-10">
           <nav className="flex flex-row justify-between items-center">
             <div className="logo basis-2/6 text-center text-xl font-semibold cursor-pointer">
               CoffeeStyle.
             </div>
-            <ul className="basis-3/6 flex items-center justify-end gap-8 uppercase text-sm text-gray-500 font-medium">
+            <ul id="top-menu" className="basis-3/6 hidden lg:flex lg:items-center lg:justify-end lg:gap-8 uppercase text-sm text-gray-500 font-medium">
               <li className="top-menu-item">
                 <a href="#"> Home</a>
               </li>
@@ -28,11 +28,11 @@ export default function header() {
               <li className="top-menu-item">
                 <a href="#">StyleGuide</a>
               </li>
-              <li className="top-menu-item">
+              <li className="top-menu-item top-menu-item-active">
                 <a href="#">Tienthangdev</a>
               </li>
             </ul>
-            <ul className="basis-1/6 flex justify-start items-center ml-16 uppercase text-sm text-gray-500 font-medium">
+            <ul className="basis-3/6 flex justify-end lg:justify-start items-center ml-16 uppercase text-sm text-gray-500 font-medium">
               <li className="top-menu-item">
                 <a href="# flex items-center">
                   <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="icons">
@@ -43,6 +43,11 @@ export default function header() {
                 </a>
               </li>
             </ul>
+            <div id="toggle-top-menu" className="basis-1/6 lg:hidden flex items-center cursor-pointer px-2 sm:px-8">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="icons">
+                <path strokeLinecap="round" strokeLinejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+              </svg>
+            </div>
           </nav>
         </header>
         <main>
