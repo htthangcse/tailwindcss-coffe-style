@@ -33,7 +33,7 @@ export default function header() {
                 <a href="#">Tienthangdev</a>
               </li>
             </ul>
-            <ul className="basis-3/6 flex justify-end lg:justify-start items-center ml-16 uppercase text-sm text-gray-500 font-medium">
+            <ul className="basis-1/6 flex justify-end lg:justify-start items-center ml-16 uppercase text-sm text-gray-500 font-medium">
               <li className="top-menu-item">
                 <a href="# flex items-center">
                   <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="icons">
@@ -52,6 +52,11 @@ export default function header() {
           </nav>
         </header>
         <main>
+          {/* <div className="h-[700px] w-full bg-[url('/img/meo.jpg')] bg-no-repeat ">
+            <div className="w-full h-full flex justify-between items-center px-5">
+              mát à???????????
+            </div>
+          </div> */}
           <div className="slider h-[530px] bg-[url('/img/slider.jpg')] bg-cover bg-no-repeat bg-bottom">
             <div className="w-full h-full flex justify-center items-center bg-gray-900 bg-opacity-40">
               <div className="mx-16 text-white text-center">
@@ -66,11 +71,41 @@ export default function header() {
               </div>
             </div>
           </div>
-          <div className="story">Story</div>
-          <div className="featured-mugs">featured-mugs</div>
+          <div className="story">
+            <div className="w-full h-full flex justify-center items-center">
+              <div className="px-4 sm:px-16 md:px-32 lg:px-64 xl:px-96 py-32 text-center">
+                <div className="text-3xl leading-10 mb-6 font-normal">Even the all-powerful Pointing has no control about the blind texts.</div>
+                <div className="text-gray-500 leading-7 mb-6">It is a paradisematic country, in which roasted parts of sentences fly into your mouth. <br />Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar.</div>
+                <div>
+                  <a href="#" className="text-orange-300 hover:text-orange-500 relative after:absolute after:-bottom-2 after:left-0 after:bg-orange-300 hover:after:bg-orange-500
+                    after:h-0.5 after:w-full after:transition-all after:ease-in-out after:duration-400">Read the full story</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="subheadline flex justify-center items-center mb-24">
+            <div className="subheadline-deco-line"></div>
+            <div className="subheadline-label uppercase mx-4">Featured Mugs</div>
+            <div className="subheadline-deco-line"></div>
+          </div>
           <div className="more-products">more-products</div>
+          <div className="subheadline flex justify-center items-center mb-24">
+            <div className="subheadline-deco-line"></div>
+            <div className="subheadline-label uppercase mx-4">More Products</div>
+            <div className="subheadline-deco-line"></div>
+          </div>
           <div className="coffee-magazine">coffee-magazine</div>
+          <div className="subheadline flex justify-center items-center mb-24">
+            <div className="subheadline-deco-line"></div>
+            <div className="subheadline-label uppercase mx-4">Buy 2 mugs and get a coffee magazine free</div>
+            <div className="subheadline-deco-line"></div>
+          </div>
           <div className="lifestyle-stories">life-style-stories</div>
+          <div className="subheadline flex justify-center items-center mb-24">
+            <div className="subheadline-deco-line"></div>
+            <div className="subheadline-label uppercase mx-4">Behind the mugs, lifestyle stories</div>
+            <div className="subheadline-deco-line"></div>
+          </div>
           <div className="subscribe-us">subscribe-us</div>
         </main>
         <footer>
