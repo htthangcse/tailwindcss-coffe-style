@@ -322,8 +322,8 @@ export default function header() {
           <div className="coffee-magazine w-[95%] xl:w-[65%] mx-auto mb-24">
             <div className="flex flex-col md:flex-row justify-center items-center gap-5">
               <div className="magazine-image basis-1/2 md:flex md:flex-row gap-5 w-full h-full mb-5 md:mb-0">
-                <div className="magazine-big-image h-[280px] basis-2/3 mb-5 md:mb-0 bg-[url('/img/magazine_1.jpg')] bg-cover bg-no-repeat bg-center"></div>
-                <div className="magazine-small-images basis-1/3 flex flex-row md:flex-col gap-5">
+                <div className="magazine-big-image h-[280px] basis-2/3 mb-2 xs:mb-5 md:mb-0 bg-[url('/img/magazine_1.jpg')] bg-cover bg-no-repeat bg-center"></div>
+                <div className="magazine-small-images basis-1/3 flex flex-row md:flex-col gap xs:gap-5">
                   <div className="h-[130px] xs:h-[200px] md:h-[130px] basis-1/2 bg-[url('/img/magazine_2.jpg')] bg-cover bg-no-repeat bg-center"></div>
                   <div className="h-[130px] xs:h-[200px] md:h-[130px] basis-1/2 bg-[url('/img/magazine_3.jpg')] bg-cover bg-no-repeat bg-center"></div>
                 </div>
@@ -336,6 +336,10 @@ export default function header() {
               </div>
             </div>
           </div>
+          <div className="parallax-section bg-[url('/img/parallax.jpg')] bg-cover bg-no-repeat bg-center h-[400px] mb-24 
+            bg-fixed w-[100vw] relative left-[calc(-50vw_+_50%)]">
+          </div>
+          {/* end parallax section */}
           <div className="subheadline flex justify-center items-center mb-24">
             <div className="subheadline-deco-line"></div>
             <div className="subheadline-label uppercase mx-4">Behind the mugs, lifestyle stories</div>
