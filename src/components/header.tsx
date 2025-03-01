@@ -71,29 +71,71 @@ export default function header() {
               </div>
             </div>
           </div>
-          <div className="story">
-            <div className="w-full h-full flex justify-center items-center">
-              <div className="px-4 sm:px-16 md:px-32 lg:px-64 xl:px-96 py-32 text-center">
+          <div className="story flex justify-center items-center">
+            <div className="px-4 sm:px-16 md:px-32 lg:px-64 xl:px-96 py-32 text-center">
                 <div className="text-3xl leading-10 mb-6 font-normal">Even the all-powerful Pointing has no control about the blind texts.</div>
                 <div className="text-gray-500 leading-7 mb-6">It is a paradisematic country, in which roasted parts of sentences fly into your mouth. <br />Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar.</div>
                 <div>
                   <a href="#" className="text-orange-300 hover:text-orange-500 relative after:absolute after:-bottom-2 after:left-0 after:bg-orange-300 hover:after:bg-orange-500
                     after:h-0.5 after:w-full after:transition-all after:ease-in-out after:duration-400">Read the full story</a>
                 </div>
-              </div>
-            </div>
+            </div>  
           </div>
           <div className="subheadline flex justify-center items-center mb-24">
             <div className="subheadline-deco-line"></div>
             <div className="subheadline-label uppercase mx-4">Featured Mugs</div>
             <div className="subheadline-deco-line"></div>
           </div>
-          <div className="more-products">more-products</div>
+          <div className="featured-mugs w-[95%] lg:w-[65%] mx-auto mb-24">
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-4">
+              <div className="product-card">
+                <div className="h-[400px] sm:h-[540px] bg-[url('/img/featured_mugs_1.jpg')] bg-cover bg-no-repeat bg-center">
+                  <a href="#">
+                    <div className="w-full h-full hover:bg-gray-900 hover:bg-opacity-10 hover:transition-all hover:ease-in-out hover:duration-400 relative group">
+                      <div className="button absolute bg-white text-gray-900 w-11/12 bottom-4 left-1/2 -translate-x-1/2 hidden group-hover:block 
+                      group-hover:animate-fadeIn ">Explore Mug</div>
+                    </div>
+                  </a>
+                </div>
+                <div className="text-center mt-8">
+                  <a href="#">
+                    <div className="text-xl mb-3 hover:text-orange-800">Pink Premium Ceramic
+                    </div>
+                  </a>
+                  <div className="">
+                    <span className=" text-gray-500">$99.00 USD</span>
+                  </div>
+                </div>
+              </div>
+              <div className="product-card">
+                <div className="h-[400px] sm:h-[540px] bg-[url('/img/featured_mugs_2.jpg')] bg-cover bg-no-repeat bg-center">
+                  <a href="#">
+                    <div className="w-full h-full hover:bg-gray-900 hover:bg-opacity-10 hover:transition-all hover:ease-in-out hover:duration-400 relative group">
+                      <div className="absolute w-[100px] bg-white py-2 px-4 top-3 right-3 text-center text-semibold text-orange-950">On Sale.</div>
+                      <div className="button absolute bg-white text-gray-900 w-11/12 bottom-4 left-1/2 -translate-x-1/2 hidden group-hover:block 
+                      group-hover:animate-fadeIn">Explore Mug</div>
+                    </div>
+                  </a>
+                </div>
+                <div className="text-center mt-8">
+                  <a href="#">
+                    <div className="text-xl mb-3 hover:text-orange-800">Golden Designers Mug
+                    </div>
+                  </a>
+                  <div className="">
+                    <span className="text-xl text-orange-800">$50.00</span>
+                    <span className="ml-2 text-gray-400 line-through">$69.00 USD</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
           <div className="subheadline flex justify-center items-center mb-24">
             <div className="subheadline-deco-line"></div>
             <div className="subheadline-label uppercase mx-4">More Products</div>
             <div className="subheadline-deco-line"></div>
           </div>
+          <div className="more-products">more-products</div>
           <div className="coffee-magazine">coffee-magazine</div>
           <div className="subheadline flex justify-center items-center mb-24">
             <div className="subheadline-deco-line"></div>
