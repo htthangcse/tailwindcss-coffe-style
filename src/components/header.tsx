@@ -86,7 +86,7 @@ export default function header() {
             <div className="subheadline-label uppercase mx-4">Featured Mugs</div>
             <div className="subheadline-deco-line"></div>
           </div>
-          <div className="featured-mugs w-[95%] lg:w-[65%] mx-auto mb-24">
+          <div className="featured-mugs w-[95%] xl:w-[65%] mx-auto mb-24">
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-4">
               <div className="product-card">
                 <div className="h-[400px] sm:h-[540px] bg-[url('/img/featured_mugs_1.jpg')] bg-cover bg-no-repeat bg-center">
@@ -135,7 +135,7 @@ export default function header() {
             <div className="subheadline-label uppercase mx-4">More Products</div>
             <div className="subheadline-deco-line"></div>
           </div>
-          <div className="more-products w-[95%] lg:w-[65%] mx-auto mb-16">
+          <div className="more-products w-[95%] xl:w-[65%] mx-auto mb-16">
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 md:gap-4 lg:gap-4">
             <div className="product-card">
                 <div className="h-[380px] bg-[url('/img/product_coffee_1.jpg')] bg-cover bg-no-repeat bg-center">
@@ -319,7 +319,23 @@ export default function header() {
             <div className="subheadline-label uppercase mx-4">Buy 2 mugs and get a coffee magazine free</div>
             <div className="subheadline-deco-line"></div>
           </div>
-          <div className="coffee-magazine">coffee-magazine</div>
+          <div className="coffee-magazine w-[95%] xl:w-[65%] mx-auto mb-24">
+            <div className="flex flex-col md:flex-row justify-center items-center gap-5">
+              <div className="magazine-image basis-1/2 md:flex md:flex-row gap-5 w-full h-full mb-5 md:mb-0">
+                <div className="magazine-big-image h-[280px] basis-2/3 mb-5 md:mb-0 bg-[url('/img/magazine_1.jpg')] bg-cover bg-no-repeat bg-center"></div>
+                <div className="magazine-small-images basis-1/3 flex flex-row md:flex-col gap-5">
+                  <div className="h-[130px] xs:h-[200px] md:h-[130px] basis-1/2 bg-[url('/img/magazine_2.jpg')] bg-cover bg-no-repeat bg-center"></div>
+                  <div className="h-[130px] xs:h-[200px] md:h-[130px] basis-1/2 bg-[url('/img/magazine_3.jpg')] bg-cover bg-no-repeat bg-center"></div>
+                </div>
+              </div>
+              <div className="magazine-post basis-1/2 pl-8 xl:pl-14 text-center md:text-left">
+                <div className="uppercase tracking-widest text-gray-500 font-medium text-xs mb-4">Premium Offer</div>
+                <div className="text-4xl mb-4">Get our Coffee Magazine</div>
+                <div className="text-gray-500 leading-7 mb-4">The most versatile furniture system ever created. Designed to fit your life.</div>
+                <div className="button bg-gray-900 text-white w-max mx-auto md:mx-0">Start Shopping</div>
+              </div>
+            </div>
+          </div>
           <div className="subheadline flex justify-center items-center mb-24">
             <div className="subheadline-deco-line"></div>
             <div className="subheadline-label uppercase mx-4">Behind the mugs, lifestyle stories</div>
