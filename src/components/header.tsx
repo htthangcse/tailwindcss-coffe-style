@@ -135,19 +135,197 @@ export default function header() {
             <div className="subheadline-label uppercase mx-4">More Products</div>
             <div className="subheadline-deco-line"></div>
           </div>
-          <div className="more-products">more-products</div>
-          <div className="coffee-magazine">coffee-magazine</div>
+          <div className="more-products w-[95%] lg:w-[65%] mx-auto mb-16">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 md:gap-4 lg:gap-4">
+            <div className="product-card">
+                <div className="h-[380px] bg-[url('/img/product_coffee_1.jpg')] bg-cover bg-no-repeat bg-center">
+                  <a href="#">
+                    <div className="w-full h-full hover:bg-gray-900 hover:bg-opacity-10 hover:transition-all hover:ease-in-out hover:duration-400 relative group">
+                      <div className="absolute w-[100px] bg-white py-2 px-4 top-3 right-3 text-center text-semibold text-orange-950">On Sale.</div>
+                      <div className="button absolute bg-white text-gray-900 w-11/12 bottom-4 left-1/2 -translate-x-1/2 hidden group-hover:block 
+                      group-hover:animate-fadeIn">Explore Mug</div>
+                    </div>
+                  </a>
+                </div>
+                <div className="text-center my-8">
+                  <a href="#">
+                    <div className="text-xl mb-3 hover:text-orange-800">Red Love Cup
+                    </div>
+                  </a>
+                  <div className="">
+                    <span className="text-xl text-orange-800">$25.00</span>
+                    <span className="ml-2 text-gray-400 line-through">$37.00 USD</span>
+                  </div>
+                </div>
+              </div>
+              <div className="product-card">
+                <div className="h-[380px] bg-[url('/img/product_coffee_2.jpg')] bg-cover bg-no-repeat bg-center">
+                  <a href="#">
+                    <div className="w-full h-full hover:bg-gray-900 hover:bg-opacity-10 hover:transition-all hover:ease-in-out hover:duration-400 relative group">
+                      <div className="absolute w-[100px] bg-white py-2 px-4 top-3 right-3 text-center text-semibold text-orange-950">On Sale.</div>
+                      <div className="button absolute bg-white text-gray-900 w-11/12 bottom-4 left-1/2 -translate-x-1/2 hidden group-hover:block 
+                      group-hover:animate-fadeIn">Explore Mug</div>
+                    </div>
+                  </a>
+                </div>
+                <div className="text-center my-8">
+                  <a href="#">
+                    <div className="text-xl mb-3 hover:text-orange-800">Black Tea Cup
+                    </div>
+                  </a>
+                  <div className="">
+                    <span className="text-xl text-orange-800">$15.00</span>
+                    <span className="ml-2 text-gray-400 line-through">$29.00 USD</span>
+                  </div>
+                </div>
+              </div>
+              <div className="product-card">
+                <div className="h-[380px] bg-[url('/img/product_coffee_3.jpg')] bg-cover bg-no-repeat bg-center">
+                  <a href="#">
+                    <div className="w-full h-full hover:bg-gray-900 hover:bg-opacity-10 hover:transition-all hover:ease-in-out hover:duration-400 relative group">
+                      <div className="button absolute bg-white text-gray-900 w-11/12 bottom-4 left-1/2 -translate-x-1/2 hidden group-hover:block 
+                      group-hover:animate-fadeIn ">Explore Mug</div>
+                    </div>
+                  </a>
+                </div>
+                <div className="text-center my-8">
+                  <a href="#">
+                    <div className="text-xl mb-3 hover:text-orange-800">B&W Essentials Mug
+                    </div>
+                  </a>
+                  <div className="">
+                    <span className=" text-gray-500">$19.00 USD</span>
+                  </div>
+                </div>
+              </div>
+              <div className="product-card">
+                <div className="h-[380px] bg-[url('/img/product_coffee_4.jpg')] bg-cover bg-no-repeat bg-center">
+                  <a href="#">
+                    <div className="w-full h-full hover:bg-gray-900 hover:bg-opacity-10 hover:transition-all hover:ease-in-out hover:duration-400 relative group">
+                      <div className="button absolute bg-white text-gray-900 w-11/12 bottom-4 left-1/2 -translate-x-1/2 hidden group-hover:block 
+                      group-hover:animate-fadeIn ">Explore Mug</div>
+                    </div>
+                  </a>
+                </div>
+                <div className="text-center my-8">
+                  <a href="#">
+                    <div className="text-xl mb-3 hover:text-orange-800">Winter Style Mug
+                    </div>
+                  </a>
+                  <div className="">
+                    <span className=" text-gray-500">$25.00 USD</span>
+                  </div>
+                </div>
+              </div>
+              <div className="product-card">
+                <div className="h-[380px] bg-[url('/img/product_coffee_5.jpg')] bg-cover bg-no-repeat bg-center">
+                  <a href="#">
+                    <div className="w-full h-full hover:bg-gray-900 hover:bg-opacity-10 hover:transition-all hover:ease-in-out hover:duration-400 relative group">
+                      <div className="button absolute bg-white text-gray-900 w-11/12 bottom-4 left-1/2 -translate-x-1/2 hidden group-hover:block 
+                      group-hover:animate-fadeIn ">Explore Mug</div>
+                    </div>
+                  </a>
+                </div>
+                <div className="text-center my-8">
+                  <a href="#">
+                    <div className="text-xl mb-3 hover:text-orange-800">Ceramic Tea
+                    </div>
+                  </a>
+                  <div className="">
+                    <span className=" text-gray-500">$46.00 USD</span>
+                  </div>
+                </div>
+              </div>
+              <div className="product-card">
+                <div className="h-[380px] bg-[url('/img/product_coffee_6.jpg')] bg-cover bg-no-repeat bg-center">
+                  <a href="#">
+                    <div className="w-full h-full hover:bg-gray-900 hover:bg-opacity-10 hover:transition-all hover:ease-in-out hover:duration-400 relative group">
+                      <div className="button absolute bg-white text-gray-900 w-11/12 bottom-4 left-1/2 -translate-x-1/2 hidden group-hover:block 
+                      group-hover:animate-fadeIn ">Explore Mug</div>
+                    </div>
+                  </a>
+                </div>
+                <div className="text-center my-8">
+                  <a href="#">
+                    <div className="text-xl mb-3 hover:text-orange-800">No Handle Bar Cup
+                    </div>
+                  </a>
+                  <div className="">
+                    <span className=" text-gray-500">$34.00 USD</span>
+                  </div>
+                </div>
+              </div>
+              <div className="product-card">
+                <div className="h-[380px] bg-[url('/img/product_coffee_7.jpg')] bg-cover bg-no-repeat bg-center">
+                  <a href="#">
+                    <div className="w-full h-full hover:bg-gray-900 hover:bg-opacity-10 hover:transition-all hover:ease-in-out hover:duration-400 relative group">
+                      <div className="button absolute bg-white text-gray-900 w-11/12 bottom-4 left-1/2 -translate-x-1/2 hidden group-hover:block 
+                      group-hover:animate-fadeIn ">Explore Mug</div>
+                    </div>
+                  </a>
+                </div>
+                <div className="text-center my-8">
+                  <a href="#">
+                    <div className="text-xl mb-3 hover:text-orange-800">Espresso Cup by Mugs.co
+                    </div>
+                  </a>
+                  <div className="">
+                    <span className=" text-gray-500">$25.00 USD</span>
+                  </div>
+                </div>
+              </div>
+              <div className="product-card">
+                <div className="h-[380px] bg-[url('/img/product_coffee_8.jpg')] bg-cover bg-no-repeat bg-center">
+                  <a href="#">
+                    <div className="w-full h-full hover:bg-gray-900 hover:bg-opacity-10 hover:transition-all hover:ease-in-out hover:duration-400 relative group">
+                      <div className="button absolute bg-white text-gray-900 w-11/12 bottom-4 left-1/2 -translate-x-1/2 hidden group-hover:block 
+                      group-hover:animate-fadeIn ">Explore Mug</div>
+                    </div>
+                  </a>
+                </div>
+                <div className="text-center my-8">
+                  <a href="#">
+                    <div className="text-xl mb-3 hover:text-orange-800">Pink Premium Ceramic
+                    </div>
+                  </a>
+                  <div className="">
+                    <span className=" text-gray-500">$99.00 USD</span>
+                  </div>
+                </div>
+              </div>
+              <div className="product-card">
+                <div className="h-[380px] bg-[url('/img/product_coffee_9.jpg')] bg-cover bg-no-repeat bg-center">
+                  <a href="#">
+                    <div className="w-full h-full hover:bg-gray-900 hover:bg-opacity-10 hover:transition-all hover:ease-in-out hover:duration-400 relative group">
+                      <div className="button absolute bg-white text-gray-900 w-11/12 bottom-4 left-1/2 -translate-x-1/2 hidden group-hover:block 
+                      group-hover:animate-fadeIn ">Explore Mug</div>
+                    </div>
+                  </a>
+                </div>
+                <div className="text-center my-8">
+                  <a href="#">
+                    <div className="text-xl mb-3 hover:text-orange-800">Summer Design Cup
+                    </div>
+                  </a>
+                  <div className="">
+                    <span className=" text-gray-500">$29.00 USD</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
           <div className="subheadline flex justify-center items-center mb-24">
             <div className="subheadline-deco-line"></div>
             <div className="subheadline-label uppercase mx-4">Buy 2 mugs and get a coffee magazine free</div>
             <div className="subheadline-deco-line"></div>
           </div>
-          <div className="lifestyle-stories">life-style-stories</div>
+          <div className="coffee-magazine">coffee-magazine</div>
           <div className="subheadline flex justify-center items-center mb-24">
             <div className="subheadline-deco-line"></div>
             <div className="subheadline-label uppercase mx-4">Behind the mugs, lifestyle stories</div>
             <div className="subheadline-deco-line"></div>
           </div>
+          <div className="lifestyle-stories">life-style-stories</div>
           <div className="subscribe-us">subscribe-us</div>
         </main>
         <footer>
