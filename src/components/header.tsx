@@ -135,7 +135,131 @@ export default function header() {
             <div className="subheadline-label uppercase mx-4">More Products</div>
             <div className="subheadline-deco-line"></div>
           </div>
-          <div className="more-products">more-products</div>
+          <div className="more-products w-[95%] lg:w-[65%] mx-auto mb-16">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 md:gap-4 lg:gap-4">
+              <div className="product-card">
+                <div className="h-[380px] bg-[url('/img/featured_mugs_1.jpg')] bg-cover bg-no-repeat bg-center">
+                  <a href="#">
+                    <div className="w-full h-full hover:bg-gray-900 hover:bg-opacity-10 hover:transition-all hover:ease-in-out hover:duration-400 relative group">
+                      <div className="button absolute bg-white text-gray-900 w-11/12 bottom-4 left-1/2 -translate-x-1/2 hidden group-hover:block 
+                      group-hover:animate-fadeIn ">Explore Mug</div>
+                    </div>
+                  </a>
+                </div>
+                <div className="text-center my-8">
+                  <a href="#">
+                    <div className="text-xl mb-3 hover:text-orange-800">Pink Premium Ceramic
+                    </div>
+                  </a>
+                  <div className="">
+                    <span className=" text-gray-500">$99.00 USD</span>
+                  </div>
+                </div>
+              </div>
+              <div className="product-card">
+                <div className="h-[380px] bg-[url('/img/featured_mugs_2.jpg')] bg-cover bg-no-repeat bg-center">
+                  <a href="#">
+                    <div className="w-full h-full hover:bg-gray-900 hover:bg-opacity-10 hover:transition-all hover:ease-in-out hover:duration-400 relative group">
+                      <div className="absolute w-[100px] bg-white py-2 px-4 top-3 right-3 text-center text-semibold text-orange-950">On Sale.</div>
+                      <div className="button absolute bg-white text-gray-900 w-11/12 bottom-4 left-1/2 -translate-x-1/2 hidden group-hover:block 
+                      group-hover:animate-fadeIn">Explore Mug</div>
+                    </div>
+                  </a>
+                </div>
+                <div className="text-center my-8">
+                  <a href="#">
+                    <div className="text-xl mb-3 hover:text-orange-800">Golden Designers Mug
+                    </div>
+                  </a>
+                  <div className="">
+                    <span className="text-xl text-orange-800">$50.00</span>
+                    <span className="ml-2 text-gray-400 line-through">$69.00 USD</span>
+                  </div>
+                </div>
+              </div>
+              <div className="product-card">
+                <div className="h-[380px] bg-[url('/img/featured_mugs_2.jpg')] bg-cover bg-no-repeat bg-center">
+                  <a href="#">
+                    <div className="w-full h-full hover:bg-gray-900 hover:bg-opacity-10 hover:transition-all hover:ease-in-out hover:duration-400 relative group">
+                      <div className="absolute w-[100px] bg-white py-2 px-4 top-3 right-3 text-center text-semibold text-orange-950">On Sale.</div>
+                      <div className="button absolute bg-white text-gray-900 w-11/12 bottom-4 left-1/2 -translate-x-1/2 hidden group-hover:block 
+                      group-hover:animate-fadeIn">Explore Mug</div>
+                    </div>
+                  </a>
+                </div>
+                <div className="text-center my-8">
+                  <a href="#">
+                    <div className="text-xl mb-3 hover:text-orange-800">Golden Designers Mug
+                    </div>
+                  </a>
+                  <div className="">
+                    <span className="text-xl text-orange-800">$50.00</span>
+                    <span className="ml-2 text-gray-400 line-through">$69.00 USD</span>
+                  </div>
+                </div>
+              </div><div className="product-card">
+                <div className="h-[380px] bg-[url('/img/featured_mugs_2.jpg')] bg-cover bg-no-repeat bg-center">
+                  <a href="#">
+                    <div className="w-full h-full hover:bg-gray-900 hover:bg-opacity-10 hover:transition-all hover:ease-in-out hover:duration-400 relative group">
+                      <div className="absolute w-[100px] bg-white py-2 px-4 top-3 right-3 text-center text-semibold text-orange-950">On Sale.</div>
+                      <div className="button absolute bg-white text-gray-900 w-11/12 bottom-4 left-1/2 -translate-x-1/2 hidden group-hover:block 
+                      group-hover:animate-fadeIn">Explore Mug</div>
+                    </div>
+                  </a>
+                </div>
+                <div className="text-center my-8">
+                  <a href="#">
+                    <div className="text-xl mb-3 hover:text-orange-800">Golden Designers Mug
+                    </div>
+                  </a>
+                  <div className="">
+                    <span className="text-xl text-orange-800">$50.00</span>
+                    <span className="ml-2 text-gray-400 line-through">$69.00 USD</span>
+                  </div>
+                </div>
+              </div><div className="product-card">
+                <div className="h-[380px] bg-[url('/img/featured_mugs_2.jpg')] bg-cover bg-no-repeat bg-center">
+                  <a href="#">
+                    <div className="w-full h-full hover:bg-gray-900 hover:bg-opacity-10 hover:transition-all hover:ease-in-out hover:duration-400 relative group">
+                      <div className="absolute w-[100px] bg-white py-2 px-4 top-3 right-3 text-center text-semibold text-orange-950">On Sale.</div>
+                      <div className="button absolute bg-white text-gray-900 w-11/12 bottom-4 left-1/2 -translate-x-1/2 hidden group-hover:block 
+                      group-hover:animate-fadeIn">Explore Mug</div>
+                    </div>
+                  </a>
+                </div>
+                <div className="text-center my-8">
+                  <a href="#">
+                    <div className="text-xl mb-3 hover:text-orange-800">Golden Designers Mug
+                    </div>
+                  </a>
+                  <div className="">
+                    <span className="text-xl text-orange-800">$50.00</span>
+                    <span className="ml-2 text-gray-400 line-through">$69.00 USD</span>
+                  </div>
+                </div>
+              </div><div className="product-card">
+                <div className="h-[380px] bg-[url('/img/featured_mugs_2.jpg')] bg-cover bg-no-repeat bg-center">
+                  <a href="#">
+                    <div className="w-full h-full hover:bg-gray-900 hover:bg-opacity-10 hover:transition-all hover:ease-in-out hover:duration-400 relative group">
+                      <div className="absolute w-[100px] bg-white py-2 px-4 top-3 right-3 text-center text-semibold text-orange-950">On Sale.</div>
+                      <div className="button absolute bg-white text-gray-900 w-11/12 bottom-4 left-1/2 -translate-x-1/2 hidden group-hover:block 
+                      group-hover:animate-fadeIn">Explore Mug</div>
+                    </div>
+                  </a>
+                </div>
+                <div className="text-center my-8">
+                  <a href="#">
+                    <div className="text-xl mb-3 hover:text-orange-800">Golden Designers Mug
+                    </div>
+                  </a>
+                  <div className="">
+                    <span className="text-xl text-orange-800">$50.00</span>
+                    <span className="ml-2 text-gray-400 line-through">$69.00 USD</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
           <div className="coffee-magazine">coffee-magazine</div>
           <div className="subheadline flex justify-center items-center mb-24">
             <div className="subheadline-deco-line"></div>
