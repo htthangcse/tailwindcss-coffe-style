@@ -57,7 +57,7 @@ export default function header() {
               mát à???????????
             </div>
           </div> */}
-          <div className="slider h-[530px] bg-[url('/img/slider.jpg')] bg-cover bg-no-repeat bg-bottom">
+          <div className="slider h-[530px] bg-[url('/img/slider.jpg')] bg-cover bg-no-repeat bg-bottom mb-24">
             <div className="w-full h-full flex justify-center items-center bg-gray-900 bg-opacity-40">
               <div className="mx-16 text-white text-center">
                 <div className="uppercase mb-6">Best place to buy coffe</div>
@@ -71,8 +71,18 @@ export default function header() {
               </div>
             </div>
           </div>
-          <div className="story flex justify-center items-center">
-            <div className="px-4 sm:px-16 md:px-32 lg:px-64 xl:px-96 py-32 text-center">
+          <div className="subheadline flex justify-center items-center mb-24">
+            <div className="subheadline-deco-line"></div>
+            <div className="subheadline-label uppercase mx-4">Our Coffee Story</div>
+            <div className="subheadline-deco-line"></div>
+          </div>
+          <div className="story flex flex-col lg:flex-row justify-center items-center gap-8 lg:gap-4 w-[95%] xl:w-[65%] mx-auto mb-24">
+            <div className="basis-1/2">
+              <video autoPlay loop muted className="w-full h-full object-cover min-h-[350px] ">
+                <source src="./video/coffee.mp4" type="video/mp4"/>
+              </video>
+            </div>
+            <div className="basis-1/2 text-center lg:text-left lg:pl-6">
                 <div className="text-3xl leading-10 mb-6 font-normal">Even the all-powerful Pointing has no control about the blind texts.</div>
                 <div className="text-gray-500 leading-7 mb-6">It is a paradisematic country, in which roasted parts of sentences fly into your mouth. <br />Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar.</div>
                 <div>
@@ -336,7 +346,7 @@ export default function header() {
               </div>
             </div>
           </div>
-          <div className="parallax-section bg-[url('/img/parallax.jpg')] bg-cover bg-no-repeat bg-center h-[400px] mb-24 
+          <div className="parallax-section bg-[url('/img/parallax.jpg')] bg-cover bg-no-repeat bg-center h-[400px] md:h-[500px] mb-24 
             bg-fixed w-[99vw] relative left-[calc(-50vw_+_50%)]">
           </div>
           {/* end parallax section */}
