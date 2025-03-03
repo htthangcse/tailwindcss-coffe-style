@@ -438,8 +438,42 @@ export default function header() {
             </div>
           </div>
         </main>
-        <footer className="h-[350px] bg-slate-500">
-          footer
+        <footer className="w-[95%] xl:w-[65%] mx-auto pb-24 text-gray-500 text-sm">
+          <div className="flex flex-col md:flex-row text-center md:text-left gap-12 md:gap-8">
+            <div className="basis-2/6">
+              <div className="font-bold text-xl mb-4 text-gray-900">CoffeeStyle.</div>
+              <div className="mb-8 md:mb-20">Delivering the best coffee life since 1996. From coffee geeks to the real ones.</div>
+              <div className="text-gray-400 hover:text-orange-700">CoffeeStyle Inc. © 1996</div>
+            </div>
+            <div className="basis-1/6">
+              <div className="uppercase font-semibold tracking-wider text-gray-600 mb-4">Menu</div>
+              <div className="flex flex-col gap-3">
+                <div className=""><a href="#" className="hover:text-orange-700">Home</a></div>
+                <div className=""><a href="#" className="hover:text-orange-700">Our Products</a></div>
+                <div className=""><a href="#" className="hover:text-orange-700">About</a></div>
+                <div className=""><a href="#" className="hover:text-orange-700">Contact</a></div>
+                <div className=""><a href="#" className="hover:text-orange-700">StyleGuide</a></div>
+              </div>
+            </div>
+            <div className="basis-1/6">
+              <div className="uppercase font-semibold tracking-wider text-gray-600 mb-4">Follow Us</div>
+              <div className="flex flex-col gap-3">
+                <div className=""><a href="#" className="hover:text-orange-700">Facebook</a></div>
+                <div className=""><a href="#" className="hover:text-orange-700">Instagram</a></div>
+                <div className=""><a href="#" className="hover:text-orange-700">Printerest</a></div>
+                <div className=""><a href="#" className="hover:text-orange-700">Twitter</a></div>
+              </div>
+              
+            </div>
+            <div className="basis-2/6">
+              <div className="uppercase font-semibold tracking-wider text-gray-600 mb-8 md:mb-4">Contact Us</div>
+              <div className="mb-4">We're Always Happy to Help</div>
+              <div className="mb-16 text-gray-800 tex-[22px] tracking-wide">
+                <a href="mailto:hatienthangk22cse@gmail.com" className="hover:text-orange-700">hatienthangk22cse@gmail.com</a>
+              </div>
+              <div className=""><a href="#" className="text-gary-400 hover:text-orange-700">Powered by Webflow</a></div>
+            </div>
+          </div>
         </footer>
       </div>
     </div>
